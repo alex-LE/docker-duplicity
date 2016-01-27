@@ -1,0 +1,7 @@
+[default]
+enable_multipart = True
+multipart_chunk_size_mb = 15
+use_https = True
+default_mime_type = binary/octet-stream
+host_base = objects.dreamhost.com
+host_bucket = %(bucket)s.objects.dreamhost.com
